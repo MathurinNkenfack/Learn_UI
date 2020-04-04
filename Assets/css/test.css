@@ -1,0 +1,132 @@
+#body{
+    background-color: #F6F6F6;
+    width: auto;
+    font-family: "Roboto";
+}
+nav{
+    background-color: #fbfbfb; 
+}
+#head-1{
+    background-color: white;
+}
+#head-2{
+    background-color: #fbfbfb;
+    border-top:3px solid;
+    border-top-color: #f6f6f6;
+}
+#navigation{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#navigation .nav-link{
+    padding: 20px 53px 20px 0px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+.btn-blue-1{
+    background-color: #189aca;
+    color: white;
+    border-radius: 3px;
+    padding: 1px 10px 1px 10px;
+}
+.btn-blue-2{
+    background-color: #396c8e;
+    color: white;
+    border-radius: 3px;
+    padding: 1px 20px 1px 20px;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('../../Assets/image/chevron-down.png') no-repeat;
+    background-size: 9px;
+    background-position:92% 50% ;
+}
+
+#lan-select{
+    border:none;
+    color:black;
+    text-decoration: none;
+}
+#lan-select:focus{
+    box-shadow: none;
+}
+
+#banner{
+    background-color: #356281;
+}
+#pub-img{
+    background-image: url('../../Assets/image/Layer -5.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 465px;
+    background-size: contain;
+}
+#pub-txt{
+    margin:130px 0px 0px 60px;
+}
+@media(max-width: 1199px){
+    #pub-txt{
+        margin:130px 0px 0px -30px;
+    }
+}
+@media(max-width: 987px){
+    #pub-txt{
+        margin:130px 0px 0px 10px;
+    }
+}
+@media(max-width: 768px){
+    #pub-txt{
+        display: none;
+    }
+}
+#navigation .nav-link:hover{
+    color: #259fcc;
+}
+
+#navigation .nav-link.active{
+    color: #259fcc;
+}
+
+#form-1{
+    padding: 20px 30px 20px 30px;
+    background-color:#bdccd6;
+    border-radius: 0px;
+}
+#form-1-txt{
+    margin-left:20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #396c8e;
+    font-weight: bold;
+}
+.form-1-input{
+    font-size: 9px;
+    color: #999999;
+    padding-left: 9px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    border:1px solid #999c9e;
+}
+#amt{
+    padding-left: 15px;
+}
+
+#button-quote{
+    font-size: 12px;
+    padding: 5px 25px 5px 25px;
+    color: white;
+    background-color: #396c8e;
+}
+
+.form-1-date{
+    font-size: 9px;
+    color: #999999;
+    padding-left: 8px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    border:1px solid #999c9e;
+}
