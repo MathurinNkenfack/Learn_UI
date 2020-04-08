@@ -1,7 +1,5 @@
-#body{
-    background-color: #F6F6F6;
-    width: auto;
-    font-family: "Roboto";
+body{
+    font-family: "Arial";
 }
 nav{
     background-color: #fbfbfb; 
@@ -37,6 +35,23 @@ nav{
     border-radius: 3px;
     padding: 1px 20px 1px 20px;
 }
+.btn-blue-3{
+    background-color: white;
+    color: #396c8e;
+    border:1.5px solid #396c8e;
+    border-radius: 3px;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 50px;
+}
+.btn-blue-4{
+    padding: 10px 35px 10px 35px;
+    color: white;
+    background-color: #396c8e;
+}
+.btn-blue-3:hover{
+    background-color: #396c8e;
+    color: white;
+}
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -44,6 +59,15 @@ select {
     background: url('../../Assets/image/chevron-down.png') no-repeat;
     background-size: 9px;
     background-position:92% 50% ;
+}
+
+.title{
+    font-weight: bold;
+    color: #396c8e;
+}
+
+hr{
+    border-top: 1px solid #a4a4a4;
 }
 
 #lan-select{
@@ -111,8 +135,67 @@ select {
     margin-bottom: 5px;
     border:1px solid #999c9e;
 }
+#form-2{
+    padding: 65px 50px 50px 50px;
+    background-color:white;
+    border-radius: 0px;
+    border:2px solid #c6c6c6;
+}
+#form-2-txt{
+    margin-bottom: 30px;
+    color: #396c8e;
+    font-weight: bold;
+}
+.form-2-input{
+    padding: 15px 15px 15px 35px;
+    margin-bottom: 20px;
+}
 #amt{
     padding-left: 15px;
+}
+
+#pub-1 ,#pub-2{
+    margin-top: 120px;
+}
+.col-br{
+    border:1px solid #becbd4;
+}
+@media(min-width: 992px){
+.ml-lg-6{
+    margin-left: 4rem;
+}
+.mr-lg-6{
+    margin-right: 4rem;
+}
+}
+
+.title-1{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 40px;
+    color: #396c8e;
+}
+
+.title-2{
+    font-weight: bolder;
+    color: white;
+}
+.pr-1{
+    margin-bottom: 100px;
+    color:#707070;
+}
+.pr-2{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    font-weight: lighter;
+    color:#707070;
+}
+
+.pr-3{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-weight: lighter;
+    color:white;
 }
 
 #button-quote{
@@ -129,4 +212,54 @@ select {
     border-radius: 0px;
     margin-bottom: 5px;
     border:1px solid #999c9e;
+}
+
+.p-date{
+    color:#7dc6e1;
+    font-size: 13px;
+}
+
+.p-body{
+    color:#3f647d;
+    font-weight: bold;
+}
+
+.p-lead{
+    color:#afafaf;
+    font-weight:bold;
+    font-size: 13px;
+}
+
+.media-br{
+    border:2px solid #aaaaaa;
+    border-left: none;
+    background-color: white;
+    padding: 15px 0px 0px 30px;
+}
+
+#footer-1{
+    background-color: #396c8e;
+}
+#footer-2{
+    background-color: #2c3e50;
+}
+
+#footer-1 .nav-link{
+    color: white;
+    text-decoration: none;
+    font-size:14px;
+    padding: 20px 60px 20px 0px;
+}
+
+#Contain-2{
+    background-color: #396c8e;
+}
+#Contain-3{
+    background-color: #fbfbfb;
+}
+#Contain-4{
+    background-color: white;
+}
+#services{
+    margin-bottom: 100px;
 }
