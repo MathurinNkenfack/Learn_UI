@@ -1,0 +1,39 @@
+/*
+Author: Nkenfack Tebonfack Mathurin;
+Description: CSS file to style all the various register forms;
+Files affected: register-#.html;
+Date: 08/04/2020;
+
+*/
+
+.bar-1 {
+    box-shadow: 3px 0px 5px gray;
+    position: relative;
+    z-index: 1;
+}
+
+.body-r {
+    background-color: #fbfbfb;
+}
+
+.btn-blue-5 {
+    padding: 10px 45px 10px 45px;
+    color: white;
+    background-color: #396c8e;
+}
+
+.select-2 {
+    color: #999999;
+    border-radius: 4px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #c5c5c5;
+}
+
+.form-3-input {
+    color: #999999;
+    padding-left: 40px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border: 2px solid #c5c5c5;
+}
