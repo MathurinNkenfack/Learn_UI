@@ -35,6 +35,11 @@ nav {
     padding: 1px 10px 1px 10px;
 }
 
+.btn-blue-1:hover {
+    color: white;
+    background-color: #064961;
+}
+
 .btn-blue-2 {
     background-color: #396c8e;
     color: white;
@@ -119,9 +124,20 @@ hr {
     width: 100%;
 }
 
+#banner-3 {
+    background-image: url('../../Assets/image/bg-3.png');
+    background-size: 500px 400px;
+    width: 100%;
+}
+
 #img-share {
     background-color: rgba(53, 98, 129, 0.7);
     height: 462px;
+}
+
+#img-share-1 {
+    background-color: rgba(53, 98, 129, 0.75);
+    height: 383px;
 }
 
 #pub-img {
